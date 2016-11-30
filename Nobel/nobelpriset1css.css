@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#B1A0A0;
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	margin:0;
+	padding:0;
+}
+
+#storbox{
+	background-color:#999;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+header{
+	background-color:#666;
+	font-family:"Times New Roman", Times, serif;
+	font-size:84px;
+	text-align:center;
+	font-variant:small-caps;
+	width:100%;
+	height:22%;
+	overflow:hidden;
+	padding-top:5px;
+	box-sizing:border-box;
+
+}
+
+nav{
+	background-color:#CCC;
+	width:15%;
+	height:78%;
+	float:left;
+}
+
+article{
+	background-color:#999;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	text-align:center;
+	width:85%;
+	height:78%;
+	float:right;
+}
+
+ul{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+
+}
+
+li{	background-color:#999;
+	width:80%;
+	height:10%;
+	margin:10%;
+	padding:0;
+	margin-top:0;
+	line-height:1000%;
+}
+
+
+h1{
+	padding:0;
+	line-height:none;
+	font-size:78px;
+}
+
+a{
+	color:#000;
+	text-decoration:none;
+}
