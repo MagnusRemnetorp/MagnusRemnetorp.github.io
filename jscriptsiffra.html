@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Favorite Number</title>
+</head>
+
+<body>
+
+	<p> Your favorite number: <b id="Number"> </b> </p>
+    <input type="button" onClick="changeText()" value="Choose Number" />
+    
+    <script type="text/javascript">
+	function changeText(){
+		var siffra=prompt("What's your favorite number bro?", "Number please");
+		document.getElementById("Number").innerHTML = siffra;
+	}
+	</script>
+    
+</body>
+</html>
