@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+}
+#backgroundimage{
+	height:100%;
+	width:100%;
+	background-image:url(homepage.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#skiersimage{
+	height:100%;
+	width:100%;
+	background-image:url(skier.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#contestsimage{
+	height: 100%;
+	width: 100%;
+	background-image: url(contests.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+
+}
+#skiresortsimage{
+	height:100%;
+	width:100%;
+	background-image:url(ski%20resorts.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+nav{
+	clear:both;
+	width:100%;
+	height:200px; 
+	/*margin-top:-270px;	overflow:hidden;
+*/
+	padding-top:150px; 
+/*	box-sizing:border-box; */
+}
+#faktabox{
+	width:50%;
+	height:100%;
+	background-color:rgba(255,255,255,0.8);
+	/* background-color:rgba(0,153,255,0.5); */
+	position:absolute;
+	margin-top:-350px;
+	margin-left:25%;
+	font-size:60px;
+	text-align:center;
+	color:rgba(1,131,165,1);	
+}
+.logga{
+	height:200px;
+	width:311px; 
+	background-image:url(snedphotoshop-loga2.jpg);
+	/* margin-left:1600px; */
+	margin-top:720px; 
+	z-index:10;
+	/*float:right; */
+	position:absolute;
+	/*left: 1388px; top: 5px;*/
+}
+.loga{
+	height:311px;
+	width:200px; 
+	background-image:url(photoshop-loga2.jpg);
+	margin-left:1500px;
+	z-index:10;
+	float:right;
+	margin-right:15px;
+	top:0;
+	position:absolute;
+	/*left: 1388px; top: 5px;*/
+}
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	/* padding-top:150px; */
+}
+li{
+	line-height:50px;
+	float:left;
+	margin-left:230px;
+}
+.meny{	
+	background-color:rgba(0,153,255,0.5) /*#39F*/;
+	width:1920px;
+	height:50px;
+}
+
+.meny2{	
+	background-color:rgba(0,153,255,0.5) /*#39F*/;
+	width:120px;
+	height:955px;
+	margin-left:90px;
+	margin-top:-150px;
+}
+li.vertikal{
+	width:100%;
+	text-align:center;
+	line-height:185px;
+	margin:0;
+	padding:0;
+	clear:both;
+	/*padding-left:20px;*/
+	box-sizing:border-box;
+}	
+a{
+	text-decoration:none;
+	color:#000;
+	font-size:22px;
+} 
+#a2{
+	color:rgb(64,69,150);
+	margin-right:450px;
+
+}
+hr{
+	border-color:rgba(0,153,255,0.5);
+	margin-top:115px;
+}
+#TypeSkiers{
+	font-size:40px;
+	line-height:120px;
+	width:100%;
+	height:100%;
+
+}
+
+#PopularContests{
+	font-size:30px;
+	line-height:120px;
+	text-align:center;
+	width:100%;
+	height:100%;
+
+}
+
