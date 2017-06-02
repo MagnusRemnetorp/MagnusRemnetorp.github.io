@@ -1,0 +1,1463 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('BebasNeue.eot?#iefix') format('embedded-opentype'),  url('BebasNeue.otf')  format('opentype'),
+	     url('BebasNeue.woff') format('woff'), url('BebasNeue.ttf')  format('truetype'), url('BebasNeue.svg#BebasNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	margin:0;
+	padding:0;
+}
+#backgroundimage{
+	height:100%;
+	width:100%;
+	background-image:url(homepage.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#redbullcoldrushimage{
+	height:100%;
+	width:100%;
+	background-image:url(redbullcoldrushimage.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	position:absolute;
+
+}
+#skiersimage{
+	height:100%;
+	width:100%;
+	background-image:url(skier.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#contestsimage{
+	height: 100%;
+	width: 100%;
+	background-image: url(contests.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+
+}
+#skiresortsimage{
+	height:100%;
+	width:100%;
+	background-image:url(ski%20resorts.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	position:absolute;
+}
+#freeskiersimage{
+	height:100%;
+	width:100%;
+	background-image:url(freeskiers.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#background {
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+   /* min-width: 100%;
+    min-height: 50%; */
+    background-size:100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+nav{
+	clear:both;
+	width:100%;
+	height:30%; 
+	/*margin-top:-270px;	overflow:hidden;
+*/
+	box-sizing:border-box;
+	padding-top:150px;
+}
+article{
+	width:100%;
+	width:70%;
+}
+#faktabox{
+	width:50%;
+	height:100%;
+	background-color:rgba(255,255,255,0.8);
+	/* background-color:rgba(0,153,255,0.5); */
+	margin-top:0;
+	margin-left:25%;
+	text-align:center;
+	color:rgba(1,131,165,1);
+}
+#faktaboxSkiResorts{
+	width:50%;
+	height:100%;
+	background-color:rgba(255,255,255,0.9);
+	 /*background-color:rgba(0,153,255,0.5); */
+	margin-top:0;
+	padding-top:0;
+	margin-left:25%;
+	text-align:center;
+	color:rgba(1,131,165,1);
+}
+#faktabox2{
+	width:100%;
+	height:100%;
+	/* background-color:rgb(139,189,226); */
+	background-color:rgb(255,255,255);
+	margin-top:32%;
+	margin-left:0;
+	font-size:25px;
+	text-align:center;
+	color:rgba(1,131,165,1);
+}
+.logga{
+	height:200px;
+	width:311px; 
+	background-image:url(snedphotoshop-loga2.jpg);
+	/* margin-left:1600px; */
+	margin-top:39%; 
+	z-index:0;
+	/*float:right; */
+	position:absolute;
+	/*left: 1388px; top: 5px;*/
+}
+.loga{
+	height:311px;
+	width:200px; 
+	background-image:url(photoshop-loga2.jpg);
+	background-size:100% 100%;		
+	margin-left:80%;
+	z-index:10;
+	float:right;
+	margin-right:15px;
+	top:0;
+	position:absolute;
+	/*left: 1388px; top: 5px;*/
+}
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	/* padding-top:150px; */
+}
+#ul2{
+	list-style:circle;
+}
+li{
+	line-height:50px;
+	float:left;
+	margin-left:230px;
+}
+.li2{
+	line-height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+
+}
+.imgvalthorens{
+	height:10%;
+	width:20%;
+}
+
+.meny{	
+	background-color:rgba(0,150,255,0.7) /*#39F*/;
+	width:100%;
+	height:50px;
+}
+
+.meny2{	
+	padding-top:0;
+	background-color:rgba(0,123,255,0.65);
+	width:120px;
+	height:100%;
+	margin-left:90px;
+	margin-top:0px;
+	float:left; 
+}
+
+.meny3{
+	padding-top:0;
+	background-color:rgba(0,153,255,0.8);
+	width:120px;
+	height:100%;
+	margin-left:90px;
+	margin-top:0px;
+	float:left; 
+}
+.meny4{	
+	background-color:rgba(0,153,255,0.5) /*#39F*/;
+	width:1920px;
+	height:50px;
+	margin-top:50%;
+}
+li.vertikal{
+	width:100%;
+	text-align:center;
+	line-height:185px;
+	margin:0;
+	padding:0;
+	clear:both;
+	/*padding-left:20px;*/
+	box-sizing:border-box;
+}	
+a{
+	text-decoration:none;
+	color:#000;
+	font-size:22px;
+} 
+.a2{
+	color:rgb(64,69,150);
+	font-size:35px;
+	margin:0;
+	padding:0;
+} 
+hr{
+	border-color:rgba(0,153,255,0.5);
+	margin-top:0;
+}
+#hr2{
+	border-color:rgba(0,153,255,0.5);
+	/*margin-top:0px;*/ 
+} 
+.TypeSkiers{
+	line-height:120px;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family: 'BebasNeue';
+
+}
+
+.PopularContests{
+	line-height:120px;
+	text-align:center;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family: 'BebasNeue';
+}
+
+.AttractiveSkiResorts{
+	line-height:120px;
+	text-align:center;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family: 'BebasNeue';
+}
+iframe{
+	background-color:#1C70AE;
+	width:50%;
+	height:75%;
+	margin-top:0%;
+	margin-bottom:5%;
+	border:0;
+}
+h1{
+	margin-top:0;
+	font-size:50px;
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+}
+h2{
+	margin-top:0;
+	font-size:40px;
+	margin-left:0;
+	text-align:center;
+}
+h3{
+	margin-top:10%;
+	font-size:30px;
+	margin-left:0;
+	text-align:center;
+
+}
+p.center{
+	text-align:center;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:30%;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:30%;
+	}
+	.PopularContests{
+		line-height:300%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:300%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		margin-left:0;
+		line-height:300%;
+	}
+	.meny2{	
+		padding-top:0;
+		width:7%;
+		height:100%;
+		margin-left:4%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:7%;
+		height:100%;
+		margin-left:4%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:1%;
+		margin-left:14%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:700%;
+		margin:0;
+		padding:0;
+		clear:both;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	nav{
+		clear:both;
+		width:100%;
+		height:20%; 
+		padding-top:8%;
+		box-sizing:border-box;
+	}
+	.loga{
+		height:270px;
+		width:165px; 
+		background-image:url(photoshop-loga2.jpg);
+		margin-left:80%;
+	}
+	.logga{
+		height:165px;
+		width:260px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:35%; 
+	}
+	a{
+		font-size:20px;
+	}
+	.a2{
+		font-size:30px;
+		color:rgb(64,69,150);
+		margin-right:0;
+	} 
+	h1{
+		font-size:50px;
+	}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:250%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		margin-left:0;
+		line-height:200%;
+	}
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:8%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:8%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	#background{
+		margin-top:-9%;
+	}
+
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:1%;
+		margin-left:10%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:700%;
+		margin:0;
+		padding:0;
+		clear:both;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	nav{
+		clear:both;
+		width:100%;
+		height:20%; 
+		padding-top:8%;
+		box-sizing:border-box;
+	}
+	.loga{
+		height:260px;
+		width:160px; 
+		background-image:url(photoshop-loga2.jpg);
+		margin-left:80%;
+	}
+	.logga{
+		height:160px;
+		width:260px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:35%; 
+	}
+	a{
+		font-size:20px;
+	}
+	.a2{
+		font-size:30px;
+		color:rgb(64,69,150);
+		margin-right:0;
+	} 
+	h1{
+		font-size:60px;
+	}
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	#backgroundimage{
+		background-image:url('homepage.jpg');
+		background-size:100% 100%;
+	}
+	#contestsimage{
+		background-image:url('contests.jpg'); 
+	}
+	#skiersimage{
+		background-image:url('skier.jpg');
+	}
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:400%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:400%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		margin-left:0;
+	}
+	#background{
+		margin-top:-17%;
+	}
+
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:10%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:10%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:2%;
+		margin-left:10%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:600%;
+		margin:0;
+		padding:0;
+		clear:both;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	.loga{
+		height:250px;
+		width:150px; 
+		background-image:url(photoshop-loga2.jpg);
+		margin-left:80%;
+	}
+	.logga{
+		height:150px;
+		width:250px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:40%; 
+	}
+	a{
+		font-size:20px;
+	}
+	.a2{
+		font-size:30px;
+		color:rgb(64,69,150);
+		margin-right:0;
+	} 
+	h1{
+		font-size:50px;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	#backgroundimage{
+		background-image:url(homepage.jpg);
+		background-size:150% 100%;
+	}
+	#contestsimage{
+		background-image:url(contests.jpg); 
+		background-size:100% 100%;
+	}
+	#skiersimage{
+		background-image:url(skiersmobil.jpg);
+		background-size:100% 100%;
+	}
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:400%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:400%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		margin-left:0;
+		line-height:400%;
+	}
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:10%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:10%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:700%;
+		margin:0;
+		padding:0;
+		clear:both;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	.loga{
+		height:200px;
+		width:120px; 
+		background-image:url(photoshop-loga2.jpg);
+		margin-left:80%;
+	}
+	.logga{
+		height:120px;
+		width:200px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:50%; 
+	}
+	a{
+		font-size:20px;
+	}
+	.a2{
+		font-size:30px;
+		color:rgb(64,69,150);
+		margin-right:0;
+	} 
+	h1{
+		font-size:40px;
+	}
+}
+
+
+
+@media screen and (max-width: 980px) {
+	#backgroundimage{
+		background-image:url('homepage2.jpg');
+		 
+	}
+	#contestsimage{
+		background-image:url('contests.jpg');
+		background-size:100% 100%;
+	}
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	#faktabox2{
+		margin-top:50%;
+	}
+	#background{
+		margin-top:-20%;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:400%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:400%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		margin-left:0;
+	}
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:4%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:4%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:2%;
+		margin-left:10%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:400%;
+		margin:0;
+		padding:0;
+		clear:both;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	.loga{
+		height:180px;
+		width:110px; 
+		background-image:url(photoshop-loga2.jpg);
+		margin-left:80%;
+	}
+	.logga{
+		height:110px;
+		width:180px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:40%; 
+	}
+	a{
+		font-size:20px;
+	}
+	.a2{
+		font-size:30px;
+		color:rgb(64,69,150);
+		margin-right:0;
+	} 
+	h1{
+		font-size:40px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#contestsimage{
+		background-image:url('contests.jpg'); 
+		background-size:100% 100%;
+	}
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:340%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:330%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		line-height:300%;
+		margin-left:0;
+	}
+	#background{
+		margin-top:-10%;
+	}
+
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:2%;
+		margin-left:10%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:400%;
+		margin:0;
+		padding:0;
+		clear:both;
+		box-sizing:border-box;
+	}
+	.loga{
+		height:180px;
+		width:110px; 
+		background-image:url(photoshop-loga2.jpg);
+		margin-left:80%;
+	}
+	.logga{
+		height:120px;
+		width:180px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:40%; 
+	}
+	a{
+		font-size:20px;
+	}
+	.a2{
+		font-size:30px;
+		color:rgb(64,69,150);
+		margin-right:0;
+	} 
+	h1{
+		font-size:40px;
+	}
+	iframe{
+	height:45%;
+}
+
+}
+
+@media screen and (max-width: 760px) {
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		margin-left:0;
+		line-height:200%;
+	}
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:2%;
+		margin-left:10%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:400%;
+		margin:0;
+		padding:0;
+		clear:both;
+		box-sizing:border-box;
+	}
+	.loga{
+		height:200px;
+		width:130px; 
+		background-image:url(photoshop-loga2.jpg);
+		margin-left:80%;
+	}
+	.logga{
+		height:120px;
+		width:180px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:38%; 
+	}
+	h1{
+		font-size:37px
+	}
+}
+
+
+@media screen and (max-width: 670px) {
+	#backgroundimage{
+		background-image:url('homepage.jpg');
+	}
+	#contestsimage{
+		background-image:url('contests.jpg');
+		background-size:100% 100%;
+	}
+	#skiresortsimage{
+		background-image:url('ski resorts.jpg');
+		background-size:100% 100%;
+	}
+	#skiersimage{
+		background-image:url('skier.jpg');
+		background-size:100% 100%;
+	}
+	#background{
+		margin-top:-5%;
+	}
+
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+		text-align:center;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		line-height:200%;
+	}
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:10%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:10%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:2.5%;
+		margin-left:7%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:200%;
+		clear:both;
+		margin-top:40%;
+		box-sizing:border-box;
+	}
+	.loga{
+		height:150px;
+		width:90px; 
+		margin-left:80%;
+	}
+	.logga{
+		height:80px;
+		width:140px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:40%; 
+	}
+	a{
+		font-size:15px;
+	}
+	.a2{
+		color:rgb(64,69,150);
+		margin-right:0;
+	} 
+	h1{
+		font-size:30px;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	#backgroundimage{
+		background-image:url(homepage.jpg);
+		background-size:200% 100%;
+	}
+	#contestsimage{
+		background-image:url('contests.jpg');
+		background-size:100% 100%;
+	}
+	#skiresortsimage{
+		background-image:url('ski resorts.jpg');
+		background-size:100% 100%;
+	}
+	#skiersimage{
+		background-image:url(skiersmobil.jpg);
+		background-size:100% 100%;
+	}
+	#faktabox{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+		text-align:center;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		line-height:250%;
+	}
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:12%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:4%;
+		margin-left:6%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:350%;
+		margin:0;
+		padding:0;
+		clear:both;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	.loga{
+		height:180px;
+		width:110px; 
+		/* background-image:url(photoshop-loga70x110.jpg); */
+		margin-left:70%;
+	}
+	.logga{
+		height:80px;
+		width:130px; 
+		background-image:url(snedphotoshop-loga2.jpg);
+		background-size:100% 100%;
+		margin-top:40%; 
+	}
+	a{
+		font-size:15px;
+	}
+	.a2{
+		color:rgb(64,69,150);
+		margin-right:0;
+		font-size:20px;
+	} 
+	h1{
+		font-size:30px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	#backgroundimage{
+		background-image:url('indexmobil.jpg');
+		background-size:100% 100%;
+	}
+	#contestsimage{
+		background-image:url(contestmobil.jpg);
+		background-size:100% 100%;
+	}
+	#skiresortsimage{
+		background-image:url(skiresortsmobil.jpg);
+		background-size:100% 100%;
+	}
+	#skiersimage{
+		background-image:url(skiersmobil.jpg);
+		background-size:100% 100%;
+	}
+	#faktabox{
+		width:60%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+
+		text-align:center;
+	}
+	#faktaboxSkiResorts{
+		width:60%;
+		height:100%;
+		margin-top:0;
+		margin-left:35%;
+	}
+	.PopularContests{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		line-height:200%;
+	}
+	#background{
+		margin-top:-62%;
+	}
+
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:20%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:20%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:4%;
+		margin-left:5%;
+	}
+	li.vertikal{
+		width:100%;
+		height:100%;
+		margin:0;
+		padding:0;
+		vertical-align:100px;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	.loga{
+		height:100px;
+		width:60px; 
+		margin-left:80%;
+	}
+	.logga{
+		height:80px;
+		width:115px; 
+		background-size:100% 100%;
+		margin-top:300px; 
+	}
+	a{
+		font-size:15px;
+	}
+	.a2{
+		color:rgb(64,69,150);
+		margin-right:0;
+		font-size:20px;
+	} 
+	iframe{
+	height:40%;
+
+}
+
+}
+
+@media screen and (max-width: 320px) {
+	#backgroundimage{
+		background-image:url(homepage3.jpg);
+		background-size:150% 100%;
+	}
+	#contestsimage{
+		background-image:url(contestmobil.jpg);
+		background-size:100% 100%;
+	}
+	#skiresortsimage{
+		background-image:url(skiresortsmobil.jpg);
+		background-size:100% 100%;
+	}
+	#skiersimage{
+		background-image:url(skiersmobil.jpg);
+		background-size:200% 100%;
+	}
+	#faktabox{
+		width:50%;
+		margin-left:45%;
+	}
+	#faktaboxSkiResorts{
+		width:50%;
+		margin-left:45%;
+	}
+	.PopularContests{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		height:100%;
+	}
+	.AttractiveSkiResorts{
+		line-height:200%;
+		text-align:center;
+		margin-left:0;
+	}
+	.TypeSkiers{
+		line-height:200%;
+	}
+	.meny{
+		width:100%;
+		margin-left:0;
+		margin-top:0;
+		padding:0;
+		float:right;
+	}
+	.meny2{	
+		padding-top:0;
+		width:20%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+
+	.meny3{
+		padding-top:0;
+		width:20%;
+		height:100%;
+		margin-left:5%;
+		margin-top:0;
+		float:left; 
+	}
+	li{
+		line-height:100%;
+		float:left;
+		margin-top:4%;
+		margin-left:5%;
+	}
+	li.vertikal{
+		width:100%;
+		text-align:center;
+		line-height:250%;
+		margin:0;
+		padding:0;
+		clear:both;
+		/*padding-left:20px;*/
+		box-sizing:border-box;
+	}
+	.loga{
+		height:100px;
+		width:60px; 
+		background-size:100% 100%;
+		margin-left:75%;
+	}
+	.logga{
+		height:60px;
+		width:100px;
+		background-size:100% 100%;
+		margin-top:65%;
+	}
+	a{
+		font-size:12px;
+	}
+	.a2{
+		color:rgb(64,69,150);
+		margin-right:0;
+		font-size:20px;
+	} 
+	h1{
+		font-size:35px;
+	}
+}
+
+	
